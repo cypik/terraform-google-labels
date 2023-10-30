@@ -1,5 +1,3 @@
-#Module      : LABEL
-#Description : Terraform label module variables.
 variable "name" {
   type        = string
   default     = ""
@@ -14,7 +12,7 @@ variable "environment" {
 
 variable "repository" {
   type        = string
-  default     = ""
+  default     = "https://github.com/opz0/terraform-gcp-labels"
   description = "Terraform current module repo"
 }
 
