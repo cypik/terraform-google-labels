@@ -22,7 +22,7 @@ You can use this module in your Terraform configuration like this:
 
 ```hcl
 module "labels" {
-  source = "git::https://github.com/opz0/terraform-azure-labels.git?ref=v1.0.0" # Replace with the actual path to this module
+  source = "git::https://github.com/opz0/terraform-azure-labels.git?ref=v1.0.0"
 
   name        = "app"
   environment = "test"
