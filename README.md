@@ -1,5 +1,5 @@
 # terraform-gcp-labels
-# Terraform Module: labels
+# Google Cloud Infrastructure Provisioning with Terraform
 
 This Terraform module is designed to create structured labels for resources with specific attributes.
 
