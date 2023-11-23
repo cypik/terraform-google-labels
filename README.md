@@ -19,11 +19,10 @@ The "labels" Terraform module allows you to define and manage labels for your re
 ## Usage
 
 You can use this module in your Terraform configuration like this:
-
+## Example: lables
 ```hcl
 module "labels" {
-  source = "git::https://github.com/opz0/terraform-gcp-labels.git?ref=v1.0.0"
-
+  source = "git::https://github.com/cypik/terraform-gcp-labels.git?ref=v1.0.0"
   name        = "app"
   environment = "test"
   label_order = ["name", "environment"]
@@ -49,7 +48,7 @@ This module does not produce any outputs. It is primarily used for labeling reso
 For detailed examples on how to use this module, please refer to the 'examples' directory within this repository.
 
 # License
-This Terraform module is provided under the '[License Name]' License. Please see the [LICENSE](https://github.com/opz0/terraform-gcp-labels/blob/master/LICENSE) file for more details.
+This Terraform module is provided under the '[License Name]' License. Please see the [LICENSE](https://github.com/cypik/terraform-gcp-labels/blob/master/LICENSE) file for more details.
 
 # Author
 Your Name
