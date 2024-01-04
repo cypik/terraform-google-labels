@@ -45,7 +45,7 @@ The module accepts the following input variables:
 This module does not produce any outputs. It is primarily used for labeling resources within your Terraform configuration.
 
 # Examples
-For detailed examples on how to use this module, please refer to the [EXAMPLES](https://github.com/cypik/terraform-gcp-labels/tree/master/_example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [Examples](https://github.com/cypik/terraform-gcp-labels/tree/master/_example) directory within this repository.
 
 # License
 This Terraform module is provided under the **'[License Name]'** License. Please see the [LICENSE](https://github.com/cypik/terraform-gcp-labels/blob/master/LICENSE) file for more details.
