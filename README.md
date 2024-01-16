@@ -34,16 +34,6 @@ module "labels" {
 }
 ```
 Please ensure you specify the correct 'source' path for the module.
-# Module Inputs
-The module accepts the following input variables:
-
-- `name` : The name of the application or resource.
-- `environment` : The environment in which the resource exists.
-- `label_order` : The order in which labels should be applied.
-- `attributes` : Additional attributes to add to the labels.
-- `extra_tags` : Extra tags to associate with the resource.
-# Module Outputs
-This module does not produce any outputs. It is primarily used for labeling resources within your Terraform configuration.
 
 # Examples
 For detailed examples on how to use this module, please refer to the [Examples](https://github.com/cypik/terraform-google-labels/tree/master/_example) directory within this repository.
