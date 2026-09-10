@@ -22,7 +22,7 @@ You can use this module in your Terraform configuration like this:
 ```hcl
 module "labels" {
   source      = "cypik/labels/google"
-  version     = "1.0.2"
+  version     = "1.0.3"
   name        = "app"
   environment = "test"
   label_order = ["name", "environment"]
@@ -51,8 +51,8 @@ Replace **MIT** and **Cypik** with the appropriate license and your information.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.9.5 |
-| <a name="requirement_google"></a> [google](#requirement\_google) | >=6.1.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.15.8 |
+| <a name="requirement_google"></a> [google](#requirement\_google) | >=8.2.0 |
 
 ## Providers
 
